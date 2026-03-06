@@ -932,9 +932,14 @@ def build_sessions(sessions_raw: list[dict], all_votes: list[dict]) -> list[dict
         votes_by_date[v["session_date"]].append(v)
 
     result = []
+    seen_numbers = set()
     for s in sessions_raw:
-        date = s["date"]
         number = s.get("number", "")
+        if number in seen_numbers:
+            continue  # skip duplicate sessions
+        seen_numbers.add(number)
+
+        date = s["date"]
         session_votes = votes_by_date.get(date, [])
 
         attendees = set()
@@ -1041,7 +1046,14 @@ def main():
 
     # 1. Session list
     print(f"[1/3] Pobieranie listy sesji z BIP...")
-    all_sessions = scrape_session_list_playwright()
+    all_sessions_raw = scrape_session_list_playwright()
+    # Deduplicate sessions by number (BIP can list same session twice)
+    seen_nums = set()
+    all_sessions = []
+    for s in all_sessions_raw:
+        if s["number"] not in seen_nums:
+            seen_nums.add(s["number"])
+            all_sessions.append(s)
 
     if not all_sessions:
         print("BŁĄD: Nie znaleziono sesji z protokołem PDF.")

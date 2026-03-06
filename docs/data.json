@@ -15,38 +15,7 @@
         {
           "date": "2024-05-07",
           "number": "I",
-          "vote_count": 10,
-          "attendee_count": 22,
-          "attendees": [
-            "Agnieszka Tokarska",
-            "Anna Salomon",
-            "Arkadiusz Dzierżyński",
-            "Beata Horała",
-            "Beata Zastawna",
-            "Dawid Biernacik",
-            "Dominik Aziewicz",
-            "Emilia Rogała",
-            "Ireneusz Trojanowicz",
-            "Jakub Ubych",
-            "Jarosław Kłodziński",
-            "Joanna Zielińska",
-            "Larysa Kramin",
-            "Marcus da Silva",
-            "Marek Dudziński",
-            "Monika Strzałkowska",
-            "Norbert Anisowicz",
-            "Paweł Stolarczyk",
-            "Tadeusz Szemiot",
-            "Teresa Bysewska",
-            "Łukasz Piesiewicz",
-            "Łukasz Strzałkowski"
-          ],
-          "speakers": []
-        },
-        {
-          "date": "2024-05-07",
-          "number": "I",
-          "vote_count": 10,
+          "vote_count": 5,
           "attendee_count": 22,
           "attendees": [
             "Agnieszka Tokarska",
@@ -85,39 +54,7 @@
         {
           "date": "2024-05-29",
           "number": "III",
-          "vote_count": 62,
-          "attendee_count": 23,
-          "attendees": [
-            "Agnieszka Tokarska",
-            "Anna Salomon",
-            "Arkadiusz Dzierżyński",
-            "Beata Horała",
-            "Beata Zastawna",
-            "Dawid Biernacik",
-            "Dominik Aziewicz",
-            "Emilia Rogała",
-            "Ireneusz Trojanowicz",
-            "Jakub Ubych",
-            "Jarosław Kłodziński",
-            "Joanna Zielińska",
-            "Larysa Kramin",
-            "Marcus da Silva",
-            "Marek Dudziński",
-            "Małgorzata Wójcik",
-            "Monika Strzałkowska",
-            "Norbert Anisowicz",
-            "Paweł Stolarczyk",
-            "Tadeusz Szemiot",
-            "Teresa Bysewska",
-            "Łukasz Piesiewicz",
-            "Łukasz Strzałkowski"
-          ],
-          "speakers": []
-        },
-        {
-          "date": "2024-05-29",
-          "number": "III",
-          "vote_count": 62,
+          "vote_count": 31,
           "attendee_count": 23,
           "attendees": [
             "Agnieszka Tokarska",
@@ -855,7 +792,7 @@
         }
       ],
       "total_sessions": 28,
-      "total_votes": 664,
+      "total_votes": 628,
       "total_councilors": 28,
       "councilors": [
         {
@@ -1015,7 +952,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 564,
+            "przeciw": 22,
+            "wstrzymal_sie": 5,
+            "brak_glosu": 23,
+            "nieobecni": 0,
+            "total_votes": 614
+          }
         },
         {
           "name": "Anna Salomon",
@@ -1174,7 +1119,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 426,
+            "przeciw": 22,
+            "wstrzymal_sie": 41,
+            "brak_glosu": 80,
+            "nieobecni": 8,
+            "total_votes": 577
+          }
         },
         {
           "name": "Anna Szpajer",
@@ -1333,7 +1286,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 485,
+            "przeciw": 24,
+            "wstrzymal_sie": 14,
+            "brak_glosu": 11,
+            "nieobecni": 0,
+            "total_votes": 534
+          }
         },
         {
           "name": "Arkadiusz Dzierżyński",
@@ -1457,7 +1418,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 405,
+            "przeciw": 23,
+            "wstrzymal_sie": 9,
+            "brak_glosu": 85,
+            "nieobecni": 5,
+            "total_votes": 527
+          }
         },
         {
           "name": "Beata Horała",
@@ -1511,7 +1480,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 525,
+            "przeciw": 36,
+            "wstrzymal_sie": 48,
+            "brak_glosu": 11,
+            "nieobecni": 7,
+            "total_votes": 627
+          }
         },
         {
           "name": "Beata Zastawna",
@@ -1670,7 +1647,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 526,
+            "przeciw": 24,
+            "wstrzymal_sie": 25,
+            "brak_glosu": 24,
+            "nieobecni": 0,
+            "total_votes": 599
+          }
         },
         {
           "name": "Dawid Biernacik",
@@ -1829,7 +1814,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 565,
+            "przeciw": 26,
+            "wstrzymal_sie": 33,
+            "brak_glosu": 3,
+            "nieobecni": 0,
+            "total_votes": 627
+          }
         },
         {
           "name": "Dominik Aziewicz",
@@ -1862,7 +1855,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 568,
+            "przeciw": 25,
+            "wstrzymal_sie": 1,
+            "brak_glosu": 29,
+            "nieobecni": 1,
+            "total_votes": 624
+          }
         },
         {
           "name": "Emilia Rogała",
@@ -2021,7 +2022,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 494,
+            "przeciw": 21,
+            "wstrzymal_sie": 20,
+            "brak_glosu": 27,
+            "nieobecni": 31,
+            "total_votes": 593
+          }
         },
         {
           "name": "Ewa Krym",
@@ -2180,7 +2189,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 391,
+            "przeciw": 20,
+            "wstrzymal_sie": 30,
+            "brak_glosu": 5,
+            "nieobecni": 5,
+            "total_votes": 451
+          }
         },
         {
           "name": "Ireneusz Trojanowicz",
@@ -2339,7 +2356,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 517,
+            "przeciw": 21,
+            "wstrzymal_sie": 27,
+            "brak_glosu": 22,
+            "nieobecni": 5,
+            "total_votes": 592
+          }
         },
         {
           "name": "Jakub Ubych",
@@ -2470,7 +2495,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 556,
+            "przeciw": 21,
+            "wstrzymal_sie": 20,
+            "brak_glosu": 14,
+            "nieobecni": 1,
+            "total_votes": 612
+          }
         },
         {
           "name": "Jakub Żynis",
@@ -2510,7 +2543,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 272,
+            "przeciw": 20,
+            "wstrzymal_sie": 3,
+            "brak_glosu": 22,
+            "nieobecni": 20,
+            "total_votes": 337
+          }
         },
         {
           "name": "Jarosław Kłodziński",
@@ -2599,7 +2640,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 452,
+            "przeciw": 24,
+            "wstrzymal_sie": 17,
+            "brak_glosu": 7,
+            "nieobecni": 31,
+            "total_votes": 531
+          }
         },
         {
           "name": "Joanna Zielińska",
@@ -2681,7 +2730,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 454,
+            "przeciw": 24,
+            "wstrzymal_sie": 15,
+            "brak_glosu": 8,
+            "nieobecni": 0,
+            "total_votes": 501
+          }
         },
         {
           "name": "Larysa Kramin",
@@ -2749,7 +2806,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 562,
+            "przeciw": 19,
+            "wstrzymal_sie": 5,
+            "brak_glosu": 31,
+            "nieobecni": 1,
+            "total_votes": 618
+          }
         },
         {
           "name": "Marcus da Silva",
@@ -2831,7 +2896,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 515,
+            "przeciw": 19,
+            "wstrzymal_sie": 9,
+            "brak_glosu": 21,
+            "nieobecni": 54,
+            "total_votes": 618
+          }
         },
         {
           "name": "Marek Dudziński",
@@ -2892,7 +2965,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 418,
+            "przeciw": 33,
+            "wstrzymal_sie": 38,
+            "brak_glosu": 20,
+            "nieobecni": 25,
+            "total_votes": 534
+          }
         },
         {
           "name": "Mariola Śrubarczyk - Cichowska",
@@ -2995,7 +3076,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 196,
+            "przeciw": 13,
+            "wstrzymal_sie": 3,
+            "brak_glosu": 28,
+            "nieobecni": 3,
+            "total_votes": 243
+          }
         },
         {
           "name": "Małgorzata Wójcik",
@@ -3140,7 +3229,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 441,
+            "przeciw": 14,
+            "wstrzymal_sie": 6,
+            "brak_glosu": 37,
+            "nieobecni": 7,
+            "total_votes": 505
+          }
         },
         {
           "name": "Monika Strzałkowska",
@@ -3299,7 +3396,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 523,
+            "przeciw": 20,
+            "wstrzymal_sie": 11,
+            "brak_glosu": 60,
+            "nieobecni": 1,
+            "total_votes": 615
+          }
         },
         {
           "name": "Natalia Kłopotek Główczewska",
@@ -3458,7 +3563,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 421,
+            "przeciw": 18,
+            "wstrzymal_sie": 18,
+            "brak_glosu": 7,
+            "nieobecni": 0,
+            "total_votes": 464
+          }
         },
         {
           "name": "Norbert Anisowicz",
@@ -3533,7 +3646,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 570,
+            "przeciw": 22,
+            "wstrzymal_sie": 7,
+            "brak_glosu": 26,
+            "nieobecni": 0,
+            "total_votes": 625
+          }
         },
         {
           "name": "Paweł Stolarczyk",
@@ -3573,7 +3694,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 437,
+            "przeciw": 26,
+            "wstrzymal_sie": 40,
+            "brak_glosu": 38,
+            "nieobecni": 31,
+            "total_votes": 572
+          }
         },
         {
           "name": "Tadeusz Szemiot",
@@ -3641,7 +3770,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 506,
+            "przeciw": 24,
+            "wstrzymal_sie": 3,
+            "brak_glosu": 69,
+            "nieobecni": 0,
+            "total_votes": 602
+          }
         },
         {
           "name": "Teresa Bysewska",
@@ -3681,7 +3818,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 575,
+            "przeciw": 25,
+            "wstrzymal_sie": 3,
+            "brak_glosu": 1,
+            "nieobecni": 8,
+            "total_votes": 612
+          }
         },
         {
           "name": "Łukasz Piesiewicz",
@@ -3749,7 +3894,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 516,
+            "przeciw": 25,
+            "wstrzymal_sie": 6,
+            "brak_glosu": 53,
+            "nieobecni": 19,
+            "total_votes": 619
+          }
         },
         {
           "name": "Łukasz Strzałkowski",
@@ -3908,7 +4061,15 @@
             }
           ],
           "has_activity_data": false,
-          "activity": null
+          "activity": null,
+          "stats": {
+            "za": 514,
+            "przeciw": 24,
+            "wstrzymal_sie": 22,
+            "brak_glosu": 39,
+            "nieobecni": 7,
+            "total_votes": 606
+          }
         }
       ],
       "votes": [
@@ -4120,1675 +4281,6 @@
             ],
             "brak_glosu": [
               "Ireneusz Trojanowicz"
-            ],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-07_001",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-07",
-          "session_number": "I",
-          "topic": "wyboru Komisji Skrutacyjnej do przeprowadzenia głosowań tajnych w czasie I sesji Rady Miasta.",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 21,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-07_002",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-07",
-          "session_number": "I",
-          "topic": "Wybór Przewodniczącego Rady.",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 21,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-07_003",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-07",
-          "session_number": "I",
-          "topic": "wniosek formalny w sprawie wprowadzenia do porządku obrad projektu uchwały w sprawie stwierdzenia wygaśnięcia mandatu radnego wskutek odmowy złożenia ślubowania.",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 26,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 1
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-07_004",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-07",
-          "session_number": "I",
-          "topic": "Stwierdzenie wygaśnięcia mandatu radnego wskutek odmowy złożenia ślubowania.",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 21,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-07_005",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-07",
-          "session_number": "I",
-          "topic": "stwierdzenia wyboru wiceprzewodniczących Rady Miasta Gdyni. 12",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 16,
-            "przeciw": 0,
-            "wstrzymal_sie": 4,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Monika Strzałkowska",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Paweł Stolarczyk",
-              "Łukasz Strzałkowski"
-            ],
-            "brak_glosu": [
-              "Ireneusz Trojanowicz"
-            ],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_001",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "wniosek o wprowadzenie poprawek, polegających na dołączeniu uzasadnienia do projektu uchwał . ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_002",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie zmiany uchwały w sprawie uchwalenia budżetu miasta Gdyni na 2024 rok.. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_003",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie zmieniająca uchwałę Rady Miasta w sprawie Wieloletniej Prognozy Finansowej dla Miasta Gdyni na lata 2024 – 2037,. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_005",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "Stanowisko Rady Miasta Gdyni w sprawie uczczenia dwudziestej rocznicy członkostwa Polski w Unii Europejskiej. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_006",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "poprawka zgłoszona w imieniu klubu Samorządności. ZA: 17, PRZECIW: 10, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 17,
-            "przeciw": 10,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Monika Strzałkowska",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Dawid Biernacik",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Łukasz Strzałkowski",
-              "Ireneusz Trojanowicz",
-              "Beata Zastawna"
-            ],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_007",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "poprawka zgłoszona przez klub Gdyńskiego Dialogu . ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_008",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie ustalenia wynagrodzenia dla Prezydenta Miasta Gdyni. ZA: 23, PRZECIW: 1, WSTRZYMUJĘ SIĘ: 3, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 23,
-            "przeciw": 1,
-            "wstrzymal_sie": 3,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Ireneusz Trojanowicz"
-            ],
-            "wstrzymal_sie": [
-              "Dawid Biernacik",
-              "Emilia Rogała"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_009",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie zmieniająca Uchwałę nr LXII/1899/24 Rady Miasta Gdyni z dnia 20 marca 2024 r. w sprawie udzielenia dotacji na prace konserwatorskie, restauratorskie i roboty budowlane przy zabytkach wpisanych do rejestru oraz figurujących w gminnej ewidencji zabytków, znajdujących się na terenie administracyjnym Gminy Miasta Gdyni,. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_010",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "wniosek formalny o zmianę porządku poprzez przesunięcie punktu na koniec porządku obrad dotyczącego projektów uchwał. ZA: 25, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 2, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 25,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 2,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz"
-            ],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_011",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały o zmianie uchwały Rady Miasta Gdynia NR XLI /1259/22 z dnia 27 kwietnia 2022 r. w sprawie wyboru przedstawicieli Miasta Gdynia w Zgromadzeniu Metropolitalnego Związku Komunikacyjnego Zatoki Gdańskiej i udzielenia pełnomocnictwa. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_012",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie przyjęcia Gdyńskiego Programu Wspierania Edukacji Uzdolnionych Dzieci i Młodzieży realizujących obowiązek szkolny lub obowiązek nauki na terenie Gdyni. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_013",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "WF o zdjęcie projektu z porządku obrad i skierowanie go do dalszych prac w Komisji Oświaty. ZA: 3, PRZECIW: 23, WSTRZYMUJĘ SIĘ: 1, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 3,
-            "przeciw": 23,
-            "wstrzymal_sie": 1,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Paweł Stolarczyk"
-            ],
-            "przeciw": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_014",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "poprawka zgłoszona przez radnego Łukasza Piesiewicza. ZA: 22, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 5, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 22,
-            "przeciw": 0,
-            "wstrzymal_sie": 5,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Paweł Stolarczyk",
-              "Ireneusz Trojanowicz",
-              "Beata Zastawna"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_015",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "poprawka zgłoszona przez radnego Bartosza Bartoszewicza. ZA: 19, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 8, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 19,
-            "przeciw": 0,
-            "wstrzymal_sie": 8,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Dawid Biernacik",
-              "Marek Dudziński",
-              "Beata Horała",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Ireneusz Trojanowicz",
-              "Beata Zastawna"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_016",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie uchwalenia regulaminu przyznawania stypendiów dla uczniów szkół podstawowych i ponadpodstawowych w ramach Gdyńskiego Programu Wspierania Edukacji Uzdolnionych Dzieci i Młodzieży, realizujących obowiązek szkolny lub obowiązek nauki na terenie Gdyni. ZA: 23, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 4, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 23,
-            "przeciw": 0,
-            "wstrzymal_sie": 4,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Paweł Stolarczyk"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_017",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie nadania imienia Przedszkolu nr 25 w Gdyni,. ZA: 26, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 26,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_018",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "WF o zdjęcie projektu z porządku obrad. ZA: 10, PRZECIW: 8, WSTRZYMUJĘ SIĘ: 9, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 10,
-            "przeciw": 8,
-            "wstrzymal_sie": 9,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Monika Strzałkowska",
-              "Tadeusz Szemiot",
-              "Jakub Ubych",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Norbert Anisowicz",
-              "Dawid Biernacik",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Łukasz Strzałkowski",
-              "Ireneusz Trojanowicz",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "wstrzymal_sie": [
-              "Dominik Aziewicz",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Łukasz Piesiewicz",
-              "Paweł Stolarczyk"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_019",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnych umów dzierżawy nieruchomości gruntowej położonej w Gdyni przy ul. Chylońskiej.. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_020",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia umowy najmu części dachu budynku przy ul. Grottgera 19 w Gdyni.. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_021",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnych umów dzierżaw nieruchomości gminnych położonych w Gdyni przy ul. Zielonej oraz Skwer Kościuszki.. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_022",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnej umowy dzierżawy nieruchomości gruntowej położonej w Gdyni przy ul. Kacze Buki.. ZA: 26, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 26,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_023",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnej umowy dzierżawy nieruchomości gruntowej położonej w Gdyni przy Al. Jana Pawła II oraz na Bulwarze Nadmorskim im. Feliksa Nowowiejskiego,. ZA: 21, PRZECIW: 3, WSTRZYMUJĘ SIĘ: 2, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 21,
-            "przeciw": 3,
-            "wstrzymal_sie": 2,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Paweł Stolarczyk"
-            ],
-            "wstrzymal_sie": [
-              "Anna Salomon",
-              "Beata Zastawna"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_024",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnej umowy dzierżawy nieruchomości gruntowej położonej w Gdyni w rejonie ul. Szyprów. ZA: 24, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 2, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 24,
-            "przeciw": 0,
-            "wstrzymal_sie": 2,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Anna Salomon",
-              "Małgorzata Wójcik"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_025",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnej umowy dzierżawy nieruchomości gruntowej położonej w Gdyni w rejonie ul. adm. J. Unruga. ZA: 24, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 3, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 24,
-            "przeciw": 0,
-            "wstrzymal_sie": 3,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [
-              "Marek Dudziński",
-              "Beata Horała"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_026",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na odstąpienie od obowiązku przetargowego trybu zawarcia kolejnej umowy dzierżawy nieruchomości gruntowej położonej w Gdyni przy ul. Gniewskiej. ZA: 26, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 26,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_027",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na zawarcie kolejnej umowy dzierżawy z dotychczasowym dzierżawcą nieruchomości położonej w Gdyni przy Plaży Śródmieście na działce nr 3043 obręb 0026 Śródmieście. ZA: 16, PRZECIW: 7, WSTRZYMUJĘ SIĘ: 4, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 16,
-            "przeciw": 7,
-            "wstrzymal_sie": 4,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Teresa Bysewska",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Monika Strzałkowska",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Marek Dudziński",
-              "Beata Horała",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Łukasz Strzałkowski",
-              "Beata Zastawna"
-            ],
-            "wstrzymal_sie": [
-              "Dawid Biernacik",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_028",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na przyjęcie przez Gminę Miasta Gdyni darowizny nieruchomości stanowiącej własność Skarbu Państwa. ZA: 27, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 0, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 27,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Marek Dudziński",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_029",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie zmieniająca uchwałę w sprawie określenia zadań z zakresu rehabilitacji zawodowej i społecznej osób niepełnosprawnych oraz wysokości środków finansowych Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych na ich realizację w 2024 r.. ZA: 23, PRZECIW: 1, WSTRZYMUJĘ SIĘ: 2, BRAK GŁOSU: 1, NIEOBECNI: 0:",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 23,
-            "przeciw": 1,
-            "wstrzymal_sie": 2,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Paweł Stolarczyk",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Arkadiusz Dzierżyński"
-            ],
-            "wstrzymal_sie": [
-              "Anna Salomon",
-              "Monika Strzałkowska"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_030",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "WF o zdjęcie projektu z porządku obrad i odesłanie do komisji Gospodarki Komunalnej. ZA: 26, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 26,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [
-              "Marek Dudziński"
-            ],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_031",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wyrażenia zgody na zbycie nieruchomości, stanowiącej własność Gminy Miasta Gdyni, położonej przy al. Zwycięstwa 138/32. ZA: 21, PRZECIW: 1, WSTRZYMUJĘ SIĘ: 4, BRAK GŁOSU: 1, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": "przyjęta",
-          "counts": {
-            "za": 21,
-            "przeciw": 1,
-            "wstrzymal_sie": 4,
-            "brak_glosu": 1,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Joanna Zielińska"
-            ],
-            "przeciw": [
-              "Anna Salomon"
-            ],
-            "wstrzymal_sie": [
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Łukasz Strzałkowski",
-              "Beata Zastawna"
-            ],
-            "brak_glosu": [],
-            "nieobecni": []
-          }
-        },
-        {
-          "id": "2024-05-29_032",
-          "source_url": "https://bip.um.gdynia.pl/sesje-rady,1702/sesje-rady-ix-kadencji,596553",
-          "session_date": "2024-05-29",
-          "session_number": "III",
-          "topic": "projekt uchwały w sprawie wysokości ekwiwalentu pieniężnego przysługującego strażakom ratownikom Ochotniczych Straży Pożarnych w Gdyni za udział w działaniu ratowniczym, akcji ratowniczej, szkoleniu lub ćwiczeniu oraz zabezpieczeniu obszaru chronionego. ZA: 25, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 2, NIEOBECNI: 0",
-          "druk": null,
-          "resolution": null,
-          "counts": {
-            "za": 25,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 2,
-            "nieobecni": 0
-          },
-          "named_votes": {
-            "za": [
-              "Norbert Anisowicz",
-              "Dominik Aziewicz",
-              "Dawid Biernacik",
-              "Teresa Bysewska",
-              "Marcus da Silva",
-              "Arkadiusz Dzierżyński",
-              "Beata Horała",
-              "Jarosław Kłodziński",
-              "Larysa Kramin",
-              "Łukasz Piesiewicz",
-              "Emilia Rogała",
-              "Anna Salomon",
-              "Paweł Stolarczyk",
-              "Monika Strzałkowska",
-              "Łukasz Strzałkowski",
-              "Tadeusz Szemiot",
-              "Agnieszka Tokarska",
-              "Ireneusz Trojanowicz",
-              "Jakub Ubych",
-              "Małgorzata Wójcik",
-              "Beata Zastawna"
-            ],
-            "przeciw": [],
-            "wstrzymal_sie": [],
-            "brak_glosu": [
-              "Marek Dudziński"
             ],
             "nieobecni": []
           }
