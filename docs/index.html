@@ -70,6 +70,7 @@ header p { color:var(--muted); margin-top:4px; }
 .stat-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; }
 .stat-card .label { font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
 .stat-card .value { font-size:2rem; font-weight:700; margin-top:4px; }
+.stat-card-link:hover { border-color:var(--accent); box-shadow:0 2px 8px rgba(0,0,0,0.08); }
 .section { margin-bottom:40px; }
 .section h2 { font-size:1.3rem; font-weight:600; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 table { width:100%; border-collapse:collapse; font-size:0.9rem; }
@@ -571,10 +572,19 @@ function renderStats() {
     { label: 'Radnych', value: K.total_councilors },
     { label: 'Kluby', value: clubs.length },
   ];
+  // Add budget stats if available
+  const B = window.BUDGET;
+  if (B && B.totals && B.totals.length > 0) {
+    const latest = B.totals[B.totals.length - 1];
+    const fmtBudget = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
+    cards.push({ label: `Budżet ${latest.year}`, value: fmtBudget(latest.expenditure), sub: 'wydatki', clickTab: 'budget' });
+    cards.push({ label: `Dochody ${latest.year}`, value: fmtBudget(latest.revenue), clickTab: 'budget' });
+  }
   grid.innerHTML = cards.map(c => `
-    <div class="stat-card">
+    <div class="stat-card${c.clickTab ? ' stat-card-link' : ''}"${c.clickTab ? ` onclick="document.querySelector('[data-tab=${c.clickTab}]').click()" style="cursor:pointer"` : ''}>
       <div class="label">${c.label}</div>
       <div class="value">${c.value}</div>
+      ${c.sub ? `<div style="font-size:0.75rem;color:var(--muted);margin-top:2px">${c.sub}</div>` : ''}
     </div>
   `).join('');
 }
@@ -791,9 +801,6 @@ function showProfile(name) {
             <div class="metric-label">${isFemale(profile.name) ? 'Nieobecna' : 'Nieobecny'}</div>
           </div>
         </div>
-        <div style="width:200px;flex-shrink:0">
-          <canvas id="profile-chart"></canvas>
-        </div>
       </div>`;
     } else if (kd.former) {
       html += `<div class="section"><p style="color:var(--muted)">Brak danych głosowania — mandat zakończony przed dostępnym okresem danych.</p></div>`;
@@ -827,12 +834,6 @@ function showProfile(name) {
           </div>
         </div>`;
 
-      // Activity timeline chart
-      if (act.sessions && act.sessions.length > 1) {
-        html += `<div class="chart-wrap" style="max-width:700px;margin-top:16px">
-          <canvas id="activity-chart"></canvas>
-        </div>`;
-      }
       html += `</div>`;
     }
 
@@ -981,70 +982,6 @@ function showProfile(name) {
       });
     }
 
-    // Draw pie chart if has voting data
-    if (hasVotes) {
-      const ctx = document.getElementById('profile-chart');
-      if (ctx) {
-        new Chart(ctx.getContext('2d'), {
-          type: 'doughnut',
-          data: {
-            labels: ['Za', 'Przeciw', isFemale(profile.name) ? 'Wstrzymała się' : 'Wstrzymał się', 'Brak głosu', isFemale(profile.name) ? 'Nieobecna' : 'Nieobecny'],
-            datasets: [{
-              data: [kd.votes_za, kd.votes_przeciw, kd.votes_wstrzymal, kd.votes_brak, kd.votes_nieobecny],
-              backgroundColor: ['rgba(34,197,94,0.8)', 'rgba(239,68,68,0.8)', 'rgba(234,179,8,0.8)', 'rgba(139,141,151,0.5)', 'rgba(75,85,99,0.5)'],
-              borderWidth: 0,
-            }]
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: { position: 'bottom', labels: { color: '#4b5563', padding: 16 } }
-            }
-          }
-        });
-      }
-    }
-
-    // Draw activity timeline chart
-    if (kd.has_activity_data && kd.activity && kd.activity.sessions && kd.activity.sessions.length > 1) {
-      const actCtx = document.getElementById('activity-chart');
-      if (actCtx) {
-        const sessions = kd.activity.sessions;
-        new Chart(actCtx.getContext('2d'), {
-          type: 'bar',
-          data: {
-            labels: sessions.map(s => s.date || s.session),
-            datasets: [{
-              label: 'Wypowiedzi',
-              data: sessions.map(s => s.statements),
-              backgroundColor: 'rgba(59,130,246,0.7)',
-              borderRadius: 3,
-              yAxisID: 'y',
-            }, {
-              label: 'Słowa',
-              data: sessions.map(s => s.words),
-              type: 'line',
-              borderColor: 'rgba(234,179,8,0.9)',
-              backgroundColor: 'rgba(234,179,8,0.1)',
-              pointRadius: 3,
-              tension: 0.3,
-              yAxisID: 'y1',
-            }]
-          },
-          options: {
-            responsive: true,
-            scales: {
-              x: { ticks: { color: '#6b7280', maxRotation: 45 }, grid: { display: false } },
-              y: { position: 'left', title: { display: true, text: 'Wypowiedzi', color: '#6b7280' }, ticks: { color: '#6b7280' }, grid: { color: 'rgba(0,0,0,0.06)' } },
-              y1: { position: 'right', title: { display: true, text: 'Słowa', color: '#6b7280' }, ticks: { color: '#6b7280' }, grid: { display: false } },
-            },
-            plugins: {
-              legend: { labels: { color: '#4b5563' } }
-            }
-          }
-        });
-      }
-    }
   }
 
   window._profileKadSwitch = function(kid) {
@@ -1517,8 +1454,8 @@ function renderBudget() {
       <canvas id="budget-trend-chart"></canvas>
     </div>
     <div style="color:var(--muted);font-size:0.8rem;margin-top:16px">
-      Źródło: BIP Gdynia, dokumenty budżetowe. Dane 2015–2021 mają charakter szacunkowy (pokrycie ~60–83%).
-      Dane 2022–${latestYear} na podstawie uchwalonych budżetów.
+      Źródło: BIP Gdynia, dokumenty budżetowe (projekty i uchwalone budżety).
+      Dane ${years[0]}–${latestYear} na podstawie projektów i uchwalonych budżetów.
     </div>`;
   container.innerHTML = html;
 

@@ -446,30 +446,21 @@ def _parse_vote_section(section_text: str, session: dict, vote_idx: int) -> dict
     if total_named == 0:
         return None
 
-    # --- Vote counts: from parsed names or explicit "ZA: N" line ---
-    counts = {
-        "za": len(named_votes["za"]),
-        "przeciw": len(named_votes["przeciw"]),
-        "wstrzymal_sie": len(named_votes["wstrzymal_sie"]),
-        "brak_glosu": len(named_votes["brak_glosu"]),
-        "nieobecni": len(named_votes["nieobecni"]),
-    }
-    # Override with explicit counts if present (Format A has "ZA: 26, PRZECIW: 0, ...")
+    # --- Vote counts: prefer explicit "ZA: N" line, fall back to parsed names ---
+    counts = {}
     za_m = re.search(r'ZA:\s*(\d+)', section_text)
-    if za_m:
-        counts["za"] = int(za_m.group(1))
+    counts["za"] = int(za_m.group(1)) if za_m else len(named_votes["za"])
     przeciw_m = re.search(r'PRZECIW:\s*(\d+)', section_text)
-    if przeciw_m:
-        counts["przeciw"] = int(przeciw_m.group(1))
+    counts["przeciw"] = int(przeciw_m.group(1)) if przeciw_m else len(named_votes["przeciw"])
     wstrzymal_m = re.search(r'WSTRZYMUJĘ\s+SIĘ:\s*(\d+)', section_text, re.IGNORECASE)
-    if wstrzymal_m:
-        counts["wstrzymal_sie"] = int(wstrzymal_m.group(1))
+    counts["wstrzymal_sie"] = int(wstrzymal_m.group(1)) if wstrzymal_m else len(named_votes["wstrzymal_sie"])
     brak_m = re.search(r'BRAK\s+GŁOSU:\s*(\d+)', section_text, re.IGNORECASE)
-    if brak_m:
-        counts["brak_glosu"] = int(brak_m.group(1))
+    counts["brak_glosu"] = int(brak_m.group(1)) if brak_m else len(named_votes["brak_glosu"])
     nieobecni_m = re.search(r'NIEOBECNI:\s*(\d+)', section_text, re.IGNORECASE)
-    if nieobecni_m:
-        counts["nieobecni"] = int(nieobecni_m.group(1))
+    counts["nieobecni"] = int(nieobecni_m.group(1)) if nieobecni_m else len(named_votes["nieobecni"])
+
+    # Deduplicate names that appear in multiple categories (PDF text bleed)
+    _deduplicate_named_votes(named_votes, counts)
 
     # --- Resolution status ---
     resolution = None
@@ -589,6 +580,9 @@ def _parse_vote_section_format_c(section_text: str, pre_text: str,
         if counts[cat] == 0 and len(named_votes[cat]) > 0:
             counts[cat] = len(named_votes[cat])
 
+    # Deduplicate names that appear in multiple categories (PDF text bleed)
+    _deduplicate_named_votes(named_votes, counts)
+
     # --- Resolution status ---
     resolution = None
     if re.search(r'Uchwała\s+została\s+podjęta', section_text, re.IGNORECASE):
@@ -611,6 +605,52 @@ def _parse_vote_section_format_c(section_text: str, pre_text: str,
     }
 
 
+def _deduplicate_named_votes(named_votes: dict, counts: dict):
+    """Remove names that appear in multiple vote categories.
+
+    PDF text sometimes bleeds between vote sections, causing the same
+    name to appear in e.g. both 'za' and 'przeciw'.  We trust the
+    explicit counts (from the "ZA: N, PRZECIW: M" line) and keep names
+    in the category whose parsed-name count is closest to its expected
+    count, removing from the other.  Within each category the *first*
+    N names (by parse order) are kept.
+    """
+    # Build a mapping: name -> list of categories it appears in
+    name_cats: dict[str, list[str]] = {}
+    for cat in ["za", "przeciw", "wstrzymal_sie", "brak_glosu", "nieobecni"]:
+        for name in named_votes.get(cat, []):
+            name_cats.setdefault(name, []).append(cat)
+
+    duplicates = {n: cats for n, cats in name_cats.items() if len(cats) > 1}
+    if not duplicates:
+        return
+
+    for name, cats in duplicates.items():
+        # Keep name in the category whose explicit count is > 0 and
+        # where the name is within the first count[cat] entries.
+        keep_cat = None
+        for cat in cats:
+            expected = counts.get(cat, 0)
+            if expected > 0:
+                idx = named_votes[cat].index(name)
+                if idx < expected:
+                    keep_cat = cat
+                    break
+        if not keep_cat:
+            # Fallback: keep in the first category encountered
+            keep_cat = cats[0]
+
+        for cat in cats:
+            if cat != keep_cat:
+                named_votes[cat] = [n for n in named_votes[cat] if n != name]
+
+    # Trim each category to its expected count (if known)
+    for cat in ["za", "przeciw", "wstrzymal_sie", "brak_glosu", "nieobecni"]:
+        expected = counts.get(cat, 0)
+        if expected > 0 and len(named_votes[cat]) > expected:
+            named_votes[cat] = named_votes[cat][:expected]
+
+
 def _parse_named_category(text: str, pattern: str, category: str, named_votes: dict):
     """Parse a named vote category from the 'Wyniki imienne' section.
 
@@ -630,12 +670,14 @@ def _parse_named_category(text: str, pattern: str, category: str, named_votes: d
     remaining = text[start:]
 
     # Find where the next category starts
+    # Note: no \b word boundary — PDF text sometimes lacks space before category
+    # markers (e.g. "ZastawnaPRZECIW (3)"), so \b would fail to match.
     next_patterns = [
-        r'\bPRZECIW\s*\(\d+\)',
-        r'\bWSTRZYMUJĘ?\s+SIĘ\s*\(\d+\)',
-        r'\bBRAK\s+GŁOSU\s*\(\d+\)',
-        r'\bNIEOBECNI\s*\(\d+\)',
-        r'\bZA\s*\(\d+\)',
+        r'PRZECIW\s*\(\d+\)',
+        r'WSTRZYMUJĘ?\s+SIĘ\s*\(\d+\)',
+        r'BRAK\s+GŁOSU\s*\(\d+\)',
+        r'NIEOBECNI\s*\(\d+\)',
+        r'ZA\s*\(\d+\)',
     ]
 
     end_pos = len(remaining)
