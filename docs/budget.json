@@ -692,5 +692,47 @@
         }
       ]
     }
-  }
+  },
+  "top_projects": [
+    {
+      "name": "Droga Czerwona - udzial miasta",
+      "amount": 80000000,
+      "category": "Drogi",
+      "status": "Projektowanie",
+      "year_start": 2025,
+      "year_end": 2030
+    },
+    {
+      "name": "Plywania Chwarzno-Wiczlino",
+      "amount": 60000000,
+      "category": "Sport",
+      "status": "W budowie",
+      "year_start": 2025,
+      "year_end": 2027
+    },
+    {
+      "name": "Przygotowanie przebudowy Estakady Kwiatkowskiego",
+      "amount": 45000000,
+      "category": "Drogi",
+      "status": "Projektowanie",
+      "year_start": 2026,
+      "year_end": 2028
+    },
+    {
+      "name": "Infrastruktura sportowa przy szkolach",
+      "amount": 35000000,
+      "category": "Edukacja",
+      "status": "Realizacja",
+      "year_start": 2026,
+      "year_end": 2027
+    },
+    {
+      "name": "Modernizacja ukladu drogowego",
+      "amount": 30000000,
+      "category": "Drogi",
+      "status": "Realizacja",
+      "year_start": 2026,
+      "year_end": 2026
+    }
+  ]
 }
