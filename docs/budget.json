@@ -516,7 +516,12 @@
           "name": "Inne",
           "amount": 27000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Inwestycje drogowe (transport i komunikacja)",
+        "amount": 217000000,
+        "category": "Transport"
+      }
     },
     "2021": {
       "total": 350000000,
@@ -545,7 +550,12 @@
           "name": "Inne",
           "amount": 25000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Węzeł Karwiny",
+        "amount": 102000000,
+        "category": "Transport"
+      }
     },
     "2022": {
       "total": 353000000,
@@ -574,7 +584,12 @@
           "name": "Inne",
           "amount": 25000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Wiadukt na ul. Puckiej (projektowanie)",
+        "amount": 79000000,
+        "category": "Transport"
+      }
     },
     "2023": {
       "total": 357000000,
@@ -603,7 +618,12 @@
           "name": "Inne",
           "amount": 25000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Węzeł Karwiny (dokończenie)",
+        "amount": 99000000,
+        "category": "Transport"
+      }
     },
     "2024": {
       "total": 227000000,
@@ -632,7 +652,12 @@
           "name": "Inne",
           "amount": 15000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Wiadukt na ul. Puckiej (realizacja)",
+        "amount": 79000000,
+        "category": "Transport"
+      }
     },
     "2025": {
       "total": 256000000,
@@ -661,7 +686,12 @@
           "name": "Inne",
           "amount": 15000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Zintegrowane Inwestycje Transportowe (ITI)",
+        "amount": 126000000,
+        "category": "Transport"
+      }
     },
     "2026": {
       "total": 400000000,
@@ -690,7 +720,12 @@
           "name": "Inne",
           "amount": 25000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Modernizacja Wiczlińskiej i Estakady Kwiatkowskiego",
+        "amount": 50000000,
+        "category": "Transport"
+      }
     }
   },
   "top_projects": [
