@@ -521,7 +521,24 @@
         "name": "Inwestycje drogowe (transport i komunikacja)",
         "amount": 217000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Inwestycje drogowe i transportowe",
+          "amount": 217000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Drogi i mosty",
+          "amount": 113000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Infrastruktura komunalna",
+          "amount": 100000000,
+          "category": "Infrastruktura"
+        }
+      ]
     },
     "2021": {
       "total": 350000000,
@@ -555,7 +572,24 @@
         "name": "Węzeł Karwiny",
         "amount": 102000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Drogi i infrastruktura drogowa",
+          "amount": 120000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Węzeł Karwiny",
+          "amount": 102000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Pływalnia Chwarzno-Wiczlino (projekt)",
+          "amount": 35000000,
+          "category": "Sport"
+        }
+      ]
     },
     "2022": {
       "total": 353000000,
@@ -589,7 +623,24 @@
         "name": "Wiadukt na ul. Puckiej (projektowanie)",
         "amount": 79000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Drogi i remonty drogowe",
+          "amount": 100000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Wiadukt na ul. Puckiej (budowa)",
+          "amount": 79000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Infrastruktura sportowa",
+          "amount": 50000000,
+          "category": "Sport"
+        }
+      ]
     },
     "2023": {
       "total": 357000000,
@@ -623,7 +674,24 @@
         "name": "Węzeł Karwiny (dokończenie)",
         "amount": 99000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Węzeł Karwiny (dokończenie)",
+          "amount": 99000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Drogi i infrastruktura drogowa",
+          "amount": 80000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Wiadukt na ul. Puckiej",
+          "amount": 79000000,
+          "category": "Drogi"
+        }
+      ]
     },
     "2024": {
       "total": 227000000,
@@ -657,7 +725,24 @@
         "name": "Wiadukt na ul. Puckiej (realizacja)",
         "amount": 79000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Drogi i ulice",
+          "amount": 80000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Wiadukt na ul. Puckiej (zakończenie)",
+          "amount": 79000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Infrastruktura komunalna",
+          "amount": 68000000,
+          "category": "Infrastruktura"
+        }
+      ]
     },
     "2025": {
       "total": 256000000,
@@ -691,7 +776,24 @@
         "name": "Zintegrowane Inwestycje Transportowe (ITI)",
         "amount": 126000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Zintegrowane Inwestycje Transportowe (ITI)",
+          "amount": 126000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Węzły integracyjne komunikacji",
+          "amount": 80000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Drogi i infrastruktura drogowa",
+          "amount": 50000000,
+          "category": "Drogi"
+        }
+      ]
     },
     "2026": {
       "total": 400000000,
@@ -725,7 +827,24 @@
         "name": "Modernizacja Wiczlińskiej i Estakady Kwiatkowskiego",
         "amount": 50000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Infrastruktura na 100-lecie miasta",
+          "amount": 200000000,
+          "category": "Infrastruktura"
+        },
+        {
+          "name": "Drogi i transport",
+          "amount": 150000000,
+          "category": "Drogi"
+        },
+        {
+          "name": "Modernizacja Wiczlińskiej i Estakady Kwiatkowskiego",
+          "amount": 50000000,
+          "category": "Drogi"
+        }
+      ]
     }
   },
   "top_projects": [
