@@ -6,168 +6,198 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/kadencja/ix/ranking</loc>
+    <loc>https://gdynia.radoskop.pl/budzet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/agnieszka-tokarska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/anna-salomon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/anna-szpajer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/arkadiusz-dzierzynski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/beata-horala/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/beata-zastawna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/dawid-biernacik/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/dominik-aziewicz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/emilia-rogala/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/ewa-krym/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/ireneusz-trojanowicz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/jakub-ubych/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/jakub-zynis/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/jaroslaw-klodzinski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/joanna-zielinska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/larysa-kramin/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/lukasz-piesiewicz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/lukasz-strzalkowski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/malgorzata-wojcik/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/marcus-da-silva/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/marek-dudzinski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/mariola-srubarczyk-cichowska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/monika-strzalkowska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/natalia-klopotek-glowczewska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/norbert-anisowicz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/pawel-stolarczyk/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/tadeusz-szemiot/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/profil/teresa-bysewska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdynia.radoskop.pl/kadencja/viii/ranking/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/kadencja/ix/radni</loc>
+    <loc>https://gdynia.radoskop.pl/kadencja/viii/radni/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/kadencja/ix/sesje</loc>
+    <loc>https://gdynia.radoskop.pl/kadencja/viii/sesje/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/kadencja/ix/glosowania</loc>
+    <loc>https://gdynia.radoskop.pl/kadencja/viii/glosowania/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/kadencja/ix/podobienstwo</loc>
+    <loc>https://gdynia.radoskop.pl/kadencja/viii/podobienstwo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/profil/agnieszka-tokarska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://gdynia.radoskop.pl/kadencja/ix/ranking/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/profil/anna-salomon</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://gdynia.radoskop.pl/kadencja/ix/radni/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/profil/anna-szpajer</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://gdynia.radoskop.pl/kadencja/ix/sesje/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/profil/arkadiusz-dzierzynski</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://gdynia.radoskop.pl/kadencja/ix/glosowania/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdynia.radoskop.pl/profil/beata-horala</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/beata-zastawna</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/dawid-biernacik</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/dominik-aziewicz</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/emilia-rogala</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/ewa-krym</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/ireneusz-trojanowicz</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/jakub-ubych</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/jakub-zynis</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/jaroslaw-klodzinski</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/joanna-zielinska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/larysa-kramin</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/marcus-da-silva</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/marek-dudzinski</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/mariola-srubarczyk-cichowska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/malgorzata-wojcik</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/monika-strzalkowska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/natalia-klopotek-glowczewska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/norbert-anisowicz</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/pawel-stolarczyk</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/tadeusz-szemiot</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/teresa-bysewska</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/lukasz-piesiewicz</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdynia.radoskop.pl/profil/lukasz-strzalkowski</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://gdynia.radoskop.pl/kadencja/ix/podobienstwo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
