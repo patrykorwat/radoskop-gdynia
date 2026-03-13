@@ -123,10 +123,89 @@ def classify_type_from_title(title):
     return "interpelacja"
 
 
+# Name aliases: BIP name → profile name (for names that can't be auto-flipped)
+NAME_ALIASES = {
+    "da Silva de Oliveira Marcus": "Marcus da Silva",
+    "Kłopotek - Główczewska Natalia": "Natalia Kłopotek Główczewska",
+}
+
+
+TITLE_PATTERNS = [
+    r'\s*-\s*Wiceprzewodnicz\w+ Rady Miasta',
+    r'\s*-\s*Przewodnicz\w+ Rady Miasta',
+    r'\s*-\s*wygaśnięcie mandatu.*',
+    r'\s*-\s*Sekretarz Rady Miasta',
+]
+TITLE_RE = re.compile('(' + '|'.join(TITLE_PATTERNS) + r')$', re.IGNORECASE)
+
+
+def strip_title(name):
+    """Usuwa tytuły/funkcje i adnotacje z końca nazwiska.
+
+    Np. 'Ubych Jakub - Wiceprzewodniczący Rady Miasta' → 'Ubych Jakub'
+        'Bartoszewicz Bartosz - wygaśnięcie mandatu z dniem 14.11.2024' → 'Bartoszewicz Bartosz'
+    Nie rusza myślników w nazwiskach dwuczłonowych:
+        'Kłopotek - Główczewska Natalia' → bez zmian
+    """
+    return TITLE_RE.sub('', name).strip()
+
+
+def flip_name(name):
+    """Odwraca 'Nazwisko Imię' → 'Imię Nazwisko'.
+
+    Obsługuje nazwiska z myślnikiem, np.
+    'Kłopotek - Główczewska Natalia' → 'Natalia Kłopotek - Główczewska'
+    'Śrubarczyk - Cichowska Mariola' → 'Mariola Śrubarczyk - Cichowska'
+    """
+    if not name:
+        return name
+
+    # Check alias table first
+    if name in NAME_ALIASES:
+        return NAME_ALIASES[name]
+
+    parts = name.strip().split()
+    if len(parts) < 2:
+        return name
+
+    # Handle 'vel' in surname
+    try:
+        vel_idx = [p.lower() for p in parts].index("vel")
+        surname_parts = parts[: vel_idx + 2]
+        first_parts = parts[vel_idx + 2 :]
+        if first_parts:
+            return " ".join(first_parts) + " " + " ".join(surname_parts)
+        return name
+    except ValueError:
+        pass
+
+    if len(parts) == 2:
+        return f"{parts[1]} {parts[0]}"
+
+    # For 3+ parts, the LAST token is the first name, everything before is surname
+    # This handles: "Kłopotek - Główczewska Natalia" → "Natalia Kłopotek - Główczewska"
+    # and: "Śrubarczyk - Cichowska Mariola" → "Mariola Śrubarczyk - Cichowska"
+    return parts[-1] + " " + " ".join(parts[:-1])
+
+
+def clean_name(raw):
+    """Czyści i normalizuje nazwisko radnego.
+
+    Pipeline: strip title → flip name → apply per-name for multi-author.
+    """
+    if not raw:
+        return ""
+    # Handle comma-separated multi-author
+    if "," in raw:
+        names = [n.strip() for n in raw.split(",") if n.strip()]
+        return ", ".join(flip_name(strip_title(n)) for n in names)
+    return flip_name(strip_title(raw.strip()))
+
+
 def parse_interpellation(item, kadencja_name, month_url=""):
     """Parsuje pojedynczą interpelację z extended_data."""
     date_raw = item.get("date", "")
-    radny = item.get("includedPersons", "").strip()
+    radny = clean_name(item.get("includedPersons", "").strip())
     subject = item.get("subject", {})
     answer = item.get("answer", False)
 
