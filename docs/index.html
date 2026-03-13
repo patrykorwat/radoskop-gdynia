@@ -1165,36 +1165,38 @@ function showProfile(name) {
     }
     const hasVotesData = allPersonVotes.length > 0;
 
+    // Tab bar (Interpelacje / Głosowania)
+    if (hasInterp || hasVotesData) {
+      html += `<div class="tab-bar" id="profile-detail-tabs" style="margin-bottom:16px">`;
+      if (hasInterp) html += `<button class="tab active" data-ptab="interp">Interpelacje (${showInterpItems.length})</button>`;
+      if (hasVotesData) html += `<button class="tab${hasInterp ? '' : ' active'}" data-ptab="votes">Głosowania (${allPersonVotes.length})</button>`;
+      html += `</div>`;
+    }
+
     // Interpelacje tab content
     const interpCatCounts = {};
-    showInterpItems.forEach(item => { const cat = item.kategoria || 'inne'; interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
+    showInterpItems.forEach(item => { const cat = categorizeInterpelacja(item.przedmiot); interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
     const interpCatOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
     if (hasInterp) {
       const interpCount = showInterpItems.filter(i => i.typ === 'interpelacja').length;
       const zapCount = showInterpItems.filter(i => i.typ === 'zapytanie').length;
-      html += `<div class="section">
-        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap">
-          ${hasVotesData ? `<div class="tab-bar" id="profile-detail-tabs" style="display:flex;gap:4px;border-bottom:1px solid var(--border)">
-            <button class="tab active" data-ptab="interp" style="padding:8px 12px;border:none;background:none;cursor:pointer;font-weight:500;border-bottom:2px solid var(--accent);margin-bottom:-1px">Interpelacje i zapytania</button>
-            <button class="tab" data-ptab="votes" style="padding:8px 12px;border:none;background:none;cursor:pointer;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px">Głosy na sesjach</button>
-          </div>` : ''}
-        </div>
-        <div id="profile-tab-interp" class="section">
-          <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>
-          <div class="filter-bar" id="profile-interp-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
-          <div id="profile-interp-container">`;
+      html += `<div id="profile-tab-interp" class="section">
+        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>
+        <div class="filter-bar" id="profile-interp-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+        <div id="profile-interp-container">`;
       showInterpItems.forEach(item => {
-        const key = (item.przedmiot||'').substring(0,80).replace(/'/g, "\\'");
-        const cat = item.kategoria || 'inne';
+        const oCri = (item.cri || '').replace(/'/g, "\\'");
+        const cat = categorizeInterpelacja(item.przedmiot);
         const typBadge = item.typ === 'zapytanie'
-          ? '<span style="background:rgba(37,99,235,0.12);color:#2563eb;padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
+          ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
           : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
-        html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${key}')" style="cursor:pointer;padding:8px 12px">
+        html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
           <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
             ${typBadge}
             ${interpCatPill(cat)}
-            <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
-            ${interpHasAnswer(item) ? '<span style="color:#16a34a;font-size:0.7rem">&#10003;</span>' : ''}
+            <span class="uchwala-numer" style="font-size:0.8rem">${item.cri || ''}</span>
+            <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu || ''}</span>
+            ${interpHasAnswer(item) ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
           </div>
           <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
         </div>`;
